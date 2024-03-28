@@ -3,8 +3,8 @@ layout: workshop      # DON'T CHANGE THIS.
 # More detailed instructions (including how to fill these variables for an
 # online workshop) are available at
 # https://carpentries.github.io/workshop-template/customization/index.html
-venue: "South San Francisco Campus"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
-address: "TBA"      # ADJUST NEEDED, full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
+venue: "Data Organization, Cleaning, Analysis and Visualization"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
+address: "South San Francisco Campus"      # ADJUST NEEDED, full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
 country: "us"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) for the institution that hosts the workshop
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the workshop
 latitude: "37.654655"        # ADJUST NEEDED, decimal latitude of workshop venue (use https://www.latlong.net/)
@@ -375,6 +375,7 @@ of code below the Schedule `<h2>` header below with
 
 <h2 id="schedule">Schedule</h2>
 
+<p>The schedule of this workshop will be posted here. Please check again closer to the date of the workshop.</p>
 {% if site.carpentry == "swc" %}
 {% include swc/schedule.html %}
 {% elsif site.carpentry == "dc" %}
