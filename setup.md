@@ -2,11 +2,20 @@
 title: Setup
 ---
 
-### Part 1: Spreadsheets
+## Getting Started
 
-::::::::::::::::::::::::::::::::::::::::::  prereq
+Data Carpentry’s teaching is hands-on, so participants are encouraged to use their own computers to insure the proper setup of tools for an efficient workflow.
+These lessons assume no prior knowledge of the skills or tools.
 
-## Data
+### Prerequisites
+
+This lesson requires a web browser, a working copy of spreadsheet software (such as LibreOffice 24.2.1), OpenRefine version 3.7.2., R 4.3.3, and RStudio 4.x.x. You will also need to download the data we will be using during the workshop. Please ensure that the data files are stored in a readily accessible location within your file system, such as on your desktop.
+
+To most effectively use these materials, please make sure to download files and install software before your workshop.
+
+## Setup Part 1: Spreadsheets
+
+### Data
 
 **Download** this data file to your computer: [https://ndownloader.figshare.com/files/2252083](https://ndownloader.figshare.com/files/2252083)
 
@@ -24,11 +33,7 @@ available for reuse.
 
 > Ernest, M., Brown, J., Valone, T., and White, E.P. (2017). Portal Project Teaching Database. Version 6. Figshare. [DOI: 10.6084/m9.figshare.1314459.v6](https://figshare.com/articles/Portal_Project_Teaching_Database/1314459)
 
-::::::::::::::::::::::::::::::::::::::::::::::::::
-
-::::::::::::::::::::::::::::::::::::::::::  prereq
-
-## Software
+### Software
 
 To interact with spreadsheets, we can use LibreOffice, Microsoft Excel, Gnumeric, OpenOffice.org, or other programs. Commands may differ a bit between programs, but the general ideas for thinking about spreadsheets are the same.
 
@@ -55,17 +60,13 @@ For this lesson, if you don't have a spreadsheet program already, you can use Li
 - Install LibreOffice
 - Once the installer is downloaded, double click on it and LibreOffice should install.
 
-::::::::::::::::::::::::::::::::::::::::::::::::::
+## Part 2: OpenRefine
 
-### Part 2: OpenRefine
-
-::::::::::::::::::::::::::::::::::::::::::  prereq
-
-## Data
+### Data
 
 **Download** the data file [Portal\_rodents\_19772002\_simplified.csv](data/Portal_rodents_19772002_simplified.csv), which is a csv file that will open in a new browser tab. Be sure to right click or control click in order to save the file (NOTE: In Safari, right click and select `Download linked file`; in Chrome and Firefox, right-click and select `Save link as...`). Make a note of the location (i.e. the folder, your Desktop) to which you save the file.
 
-### About the data
+#### About the data
 
 The data for this lesson is a part of the Data Carpentry Ecology workshop.
 It is a teaching version of the Portal Database. The data in this lesson
@@ -77,12 +78,7 @@ The data for this lesson and the workshop are in the
 available on FigShare, with a CC-BY license
 available for reuse.
 
-
-::::::::::::::::::::::::::::::::::::::::::::::::::
-
-::::::::::::::::::::::::::::::::::::::::::  prereq
-
-## Software
+### Software
 
 For this lesson you will need **OpenRefine version 3.7.2** and a web browser.
 
@@ -95,7 +91,7 @@ Download OpenRefine version 3.7.2 from [https://openrefine.org/download](https:/
 - Unzip the downloaded file into a directory and name that directory something like OpenRefine.
 - Check below for further instructions depending on your operating system.
 
-### Windows
+#### Windows
 
 1. Go to your newly created OpenRefine directory.
 2. Launch OpenRefine by double clicking on `openrefine.exe` (this will launch a black command prompt window first; ignore this window, and wait for OpenRefine to launch in the web browser, which is where you will interact with the program).
@@ -104,7 +100,7 @@ Download OpenRefine version 3.7.2 from [https://openrefine.org/download](https:/
 
 1. If you are using a different browser, or OpenRefine does not automatically open for you, point your browser at [http://127.0.0.1:3333/](https://127.0.0.1:3333/) or [http://localhost:3333](https://localhost:3333) to launch the program.
 
-### Mac
+#### Mac
 
 1. Go to your newly created OpenRefine directory.
 2. Drag the OpenRefine icon into Applications folder, and `Ctrl-click/Open…` it.
@@ -113,13 +109,13 @@ Download OpenRefine version 3.7.2 from [https://openrefine.org/download](https:/
 
 1. If you are using a different browser, or OpenRefine does not automatically open for you, point your browser at [http://127.0.0.1:3333/](https://127.0.0.1:3333/) or [http://localhost:3333](https://localhost:3333) to launch the program.
 
-### Linux
+#### Linux
 
 1. Navigate to your newly created OpenRefine directory using the command line.
 2. Type `./refine` into the terminal within the OpenRefine directory
 3. If you are using a different browser, or OpenRefine does not automatically open for you, point your browser at [http://127.0.0.1:3333/](https://127.0.0.1:3333/) or [http://localhost:3333](https://localhost:3333) to launch the program.
 
-## Web Browser
+### Web Browser
 
 OpenRefine requires one of these web browsers installed in your computer:
 
@@ -133,16 +129,7 @@ OpenRefine has some issues with Firefox. Internet Explorer is not supported.
 
 Note: Other versions of OpenRefine should work, but the results might be different due to changes in the software or default settings.
 
-
-::::::::::::::::::::::::::::::::::::::::::::::::::
-
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
-
-Setup instructions live in this document. Please specify the tools and the data sets the learner needs to have installed. If you want to hide different setup instructions, you can use a `solution` tag.
-
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-### Part 3: Install R and RStudio
+## Part 3: R and RStudio
 
 R and RStudio are two separate pieces of software: 
 
@@ -153,9 +140,8 @@ If you don't already have R and RStudio installed, follow the instructions for y
 
 <br>
 
-:::::::::::::::: solution
 
-## For Windows
+#### For Windows
 
 * Download R from the [CRAN website](https://cran.r-project.org/bin/windows/base/release.htm).
 * Run the `.exe` file that was just downloaded
@@ -163,12 +149,8 @@ If you don't already have R and RStudio installed, follow the instructions for y
 * Under *Installers* select **RStudio x.yy.zzz - Windows Vista/7/8/10** (where x, y, and z represent version numbers)
 * Double click the file to install it
 * Once it's installed, open RStudio to make sure it works and you don't get any error messages.
-  
-:::::::::::::::::::::::::
 
-:::::::::::::::: solution
-
-## For MacOS
+#### For MacOS
 
 * Download R from the [CRAN website](https://cran.r-project.org/bin/macosx/).
 * Select the `.pkg` file for the latest R version
@@ -179,11 +161,8 @@ If you don't already have R and RStudio installed, follow the instructions for y
 * Double click the file to install RStudio
 * Once it's installed, open RStudio to make sure it works and you don't get any error messages.
 
-:::::::::::::::::::::::::
 
-:::::::::::::::: solution
-
-## For Linux 
+#### For Linux 
 
 * Download R from the [CRAN website](https://cran.r-project.org/bin/macosx/).
 * Select the `.pkg` file for the latest R version
@@ -194,7 +173,6 @@ If you don't already have R and RStudio installed, follow the instructions for y
 * Double click the file to install RStudio
 * Once it's installed, open RStudio to make sure it works and you don't get any error messages.
 
-:::::::::::::::::::::::::
 
 ### Update R and RStudio
 
@@ -208,13 +186,9 @@ To update RStudio to the latest version, open RStudio and click on
 instruction on screen. By default, RStudio will also automatically notify you 
 of new versions every once in a while.
 
-::::::::::::::::::::::::::::: callout
-
 The changes introduced by new R versions are usually backwards-compatible. That is, your old code should still work after updating your R version. However, if breaking changes happen, it is useful to know that you can have multiple versions of R installed in parallel and that you can switch between them in RStudio by going to `Tools > Global Options > General > Basic`.
 
 While this may sound scary, it is **far more common** to run into issues due to using out-of-date versions of R or R packages. Keeping up with the latest versions of R, RStudio, and any packages you regularly use is a good practice.
-
-:::::::::::::::::::::::::::::
 
 ### Install required R packages
 
