@@ -64,7 +64,7 @@ For this lesson, if you don't have a spreadsheet program already, you can use Li
 
 ### Data
 
-**Download** the data file [Portal\_rodents\_19772002\_simplified.csv](data/Portal_rodents_19772002_simplified.csv), which is a csv file that will open in a new browser tab. Be sure to right click or control click in order to save the file (NOTE: In Safari, right click and select `Download linked file`; in Chrome and Firefox, right-click and select `Save link as...`). Make a note of the location (i.e. the folder, your Desktop) to which you save the file.
+**Download** the data file [Portal\_rodents\_19772002\_simplified.csv](https://datacarpentry.org/OpenRefine-ecology-lesson/data/Portal_rodents_19772002_simplified.csv), which is a csv file that will open in a new browser tab. Be sure to right click or control click in order to save the file (NOTE: In Safari, right click and select `Download linked file`; in Chrome and Firefox, right-click and select `Save link as...`). Make a note of the location (i.e. the folder, your Desktop) to which you save the file.
 
 #### About the data
 
@@ -228,5 +228,5 @@ We will download the data directly from R during the lessons. However, if you ar
 
 The data files for the lesson can be downloaded manually:
 
- - [cleaned data](../episodes/data/cleaned/surveys_complete_77_89.csv) and 
- - [zip file of raw data](../episodes/data/new_data.zip).
+ - [cleaned data](https://datacarpentry.org/R-ecology-lesson-alternative/data/cleaned/surveys_complete_77_89.csv) and 
+ - [zip file of raw data](https://datacarpentry.org/R-ecology-lesson-alternative/data/new_data.zip).
